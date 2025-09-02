@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Background Styles Resource</title>
+    <link rel="stylesheet" href="styles.css" />
+    <title>hello world</title>
+    <div class="container"></div>
+    <style>
+      header {
+        font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+        color: teal;
+        background-color: darkorange;
+        padding: 20px 100px;
+        display: grid;
+        place-items: center;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        text-align: center;
+        margin-bottom: 20px;
+        border: 2px solid teal;
+        width: 80%;
+        max-width: 800px;
+        box-sizing: border-box;
+        transition: transform 0.2s;
+      }
+      .container {
+        width: 100%;
+        --u: 20px; /* change block size */
+        --hue: hue-rotate(0deg); /* change color hue*/
+        --c1: #92472f;
+        --c2: #d2562f;
+        --c3: #ffbc58;
+        --cs: #6b2e1b;
+        --gp: 50% / calc(var(--u) * 12) calc(var(--u) * 12.8);
+        height: 100%;
+        filter: var(--hue);
+        background: repeating-conic-gradient(from 61.93deg at 75% 36.5%, var(--c1) 0%, var(--c1) 2%, var(--cs) 16%, #fff0 0% 100%) var(--gp), repeating-conic-gradient(from 118.07deg at 75% 87.5%, var(--c3) 0% 34.5%, #fff0 0% 100%) var(--gp),
+          repeating-conic-gradient(from 118.07deg at 50% 75%, #fff0 2%, var(--cs) 17.15%, #fff0 0% 100%) var(--gp), repeating-conic-gradient(from 61.93deg at 50% 50%, var(--c3) 0% 15.59%, var(--c2) 0% 32.79%, #fff0 0% 100%) var(--gp),
+          repeating-conic-gradient(from -118.07deg at 25% 12.5%, var(--c2) 0% 32.79%, var(--c1) 0% 50%, #fff0 0% 100%) var(--gp), repeating-conic-gradient(from -61.93deg at 25% 87.5%, #fff0 0 67.25%, var(--c2) 0% 100%) var(--gp),
+          repeating-conic-gradient(from -61.93deg at 50% 75%, #fff0 0% 66.5%, var(--c1) 0% 84.25%, var(--c3) 0% 100%) var(--gp),
+          repeating-conic-gradient(from -61.93deg at 25% 37.5%, var(--c3) 0% 34.5%, var(--c1) 0% 67.25%, var(--c2) 0% 100%) var(--gp);
+      }
+    </style>
+  </head>
+  <body>
+    <style>
+      body {
+        display: grid;
+        place-items: center;
+        padding: 20px;
+        align-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: bisque;
+      }
+      blockquote {
+        border-left: 4px solid teal;
+        padding-left: 10px;
+        margin: 20px 0;
+        font-style: italic;
+        color: darkslategray;
+      }
+    </style>
+    <header>
+      <h1>hello world</h1>
+      <p>Hello world my name is <mark>mikael</mark></p>
+    </header>
+    <main>
+      <a href="#my-section">kontakt</a>
+      <h1>10 årig Mikael</h1>
+      <p>Den gang jeg var i grækkenland sammen med mine Bedste forældre. jeg kan huske et jeg bliv stukket af en brandmænd og skulle derefter tisse på migselv. øvbøv</p>
+      <img src="billede test/Lille_mikael.jpeg" alt="A description of the image" width="600px" />
+      <p>Mikael har altid været stilet😎</p>
+      <blockquote>
+        <dd>
+          Mikael endte med at tisse på sig imens han grad derudad, det trauma førte til at han aldrig igen dette sommer turde at svømme i havet igen. men han kan godt nu no worries, mikael er blivet big man men det her, var en fortælling om den gang
+          Mikael var en small guy
+        </dd>
+      </blockquote>
+    </main>
+    <footer>
+      <style>
+        ul {
+          list-style-type: none;
+          padding: 0;
+          display: grid;
+          gap: 10px;
+        }
+        ul li {
+          background-color: teal;
+          color: white;
+          padding: 20px 40px;
+          border: none;
+          border-radius: 8px;
+          cursor: pointer;
+          font-size: 1rem;
+          transition: backround 0.2s;
+          text-align: center;
+        }
+        ul li:hover {
+          background-color: darkorange;
+          color: teal;
+          transform: scale(1.05);
+        }
+      </style>
+      <ul>
+        <li><a href="https://www.facebook.com/mikaelmani.atlason" target="_blank">Facebook</a></li>
+        <li><a href="https://www.instagram.com/mikaelatla/" target="_blank">instagram</a></li>
+        <li><a href="https://www.linkedin.com/feed/" target="_blank">linkedin</a></li>
+      </ul>
+      <style>
+        ul li a {
+          display: block;
+          color: inherit;
+          text-decoration: none;
+          width: 100%;
+          height: 100%;
+          text-align: center;
+        }
+        a {
+          text-align: center;
+          text-decoration: coral;
+          font-size: 1.2rem;
+          color: darkorange;
+          margin-bottom: 10px;
+          display: block;
+          transition: color 0.2s;
+        }
+      </style>
+      <a href="PerfektSide.html"><strong>Hvis Du Vil Blive Stiv</strong></a>
+      <ul>
+        <li><a href="Mailto:Mikael@urban-breakout.com"></a>smid mig en mail</li>
+        <li><a href="Tel:+4531320666"></a>Ring mig op</li>
+        <li><a href="sms:+4531320666"></a>Slide in my dm's</li>
+      </ul>
+      <h4 id="my-section">kontakt</h4>
+    </footer>
+  </body>
+</html>
